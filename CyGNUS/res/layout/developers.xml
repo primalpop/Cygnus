@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient1"
+     android:layoutAnimation="@anim/layout_anim_timeline" 
+    
+    >
+<!--
+	Add a textview below name describing each dev
+
+	Add a page Visit us displaying links to blogs, git hubs, source codes
+ -->
+  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:text="NORTHERN CROSS"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dip"
+            android:layoutAnimation="@anim/layout_anim_timeline" 
+             />
+ <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="18sp"
+            android:text="Aneesa N"
+            android:layout_margin="10dip"
+              android:layoutAnimation="@anim/layout_anim_timeline" 
+             />
+             
+ <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="18sp"
+            android:text= "Khadeeja Febin"
+            android:layout_margin="10dip"
+            android:layoutAnimation="@anim/layout_anim_timeline" 
+             />
+             <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="18sp"
+            android:text= "Vigil A.J"
+            android:layout_margin="10dip"
+              android:layoutAnimation="@anim/layout_anim_timeline" 
+             />
+
+ <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="18sp"
+            android:text= "Niya Simon C"
+            android:layout_margin="10dip"
+              android:layoutAnimation="@anim/layout_anim_timeline" 
+             />    
+ 
+ <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="18sp"
+            android:text= "Primal Pappachan"
+            android:layout_margin="10dip"
+              android:layoutAnimation="@anim/layout_anim_timeline" 
+             />
+ <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dip"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:text="geeks.android@gmail.com"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dip"
+            android:layoutAnimation="@anim/layout_anim_timeline" 
+             />
+</LinearLayout>

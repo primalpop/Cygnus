@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="180dip"
+  android:layout_height="200dip"
+  android:background="@color/transparent"
+  android:orientation="vertical" 
+  android:layoutAnimation="@anim/layout_anim_longclickmenu"
+  >
+ 
+ <Button
+ android:layout_gravity="center_horizontal"
+android:id="@+id/reply"
+android:layout_width="150dip"
+android:layout_height="wrap_content"
+android:text="Reply"
+android:textSize="20sp"
+android:textColor="@color/sky_blue"
+android:background="@drawable/custom_button"
+/> 
+  <Button
+ android:layout_gravity="center_horizontal"
+android:id="@+id/relaunch"
+android:layout_width="150dip"
+android:layout_height="wrap_content"
+android:text="Relaunch"
+android:textSize="20sp"
+android:textColor="@color/sky_blue"
+android:background="@drawable/custom_button"
+/>
+
+ <Button
+ android:layout_gravity="center_horizontal"
+android:id="@+id/like"
+android:layout_width="150dip"
+android:layout_height="wrap_content"
+android:text="Like"
+android:textSize="20sp"
+android:textColor="@color/sky_blue"
+android:background="@drawable/custom_button"
+/> 
+  </LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/gradient3"
+  >
+   
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  >
+  
+<Button
+android:id="@+id/uname_above_timline"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="20sp"
+android:textColor="@color/ghost_white"
+android:background="@drawable/custom_button"
+/>
+
+<Button
+android:id="@+id/update_above_timeline"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="UPDATE"
+android:textSize="14sp"
+android:background="@drawable/custom_button"
+android:layout_alignParentRight="true"
+android:textColor="@color/ghost_white"
+/>
+    
+  </RelativeLayout>
+ <ListView
+    android:id="@+id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  /> 
+  
+<!--  <ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    /> -->  	 
+    
+  
+</LinearLayout>

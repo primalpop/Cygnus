@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cygnus"
+    >
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/title"
+    android:textColor="#fffff0"
+	android:textSize="40px"    
+	android:layout_marginBottom="10dip"
+	android:layout_centerHorizontal="true"
+	android:layout_gravity="center_horizontal"
+    />
+    <TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="15px"
+	android:text="@string/caption"
+	android:textColor="#f5fffa"
+	android:layout_marginBottom="50dip"
+	android:layout_gravity="center_horizontal"
+	/>    
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:orientation="horizontal"
+	>	
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="username: "
+	android:textSize="20px"
+	android:textStyle="bold"
+	/>
+	
+<EditText 
+			  android:id="@+id/username_login"
+              android:layout_height="wrap_content"
+              android:layout_width="200px"
+              android:singleLine="true"
+              android:layout_marginLeft="5dip" 
+  /> 
+  </LinearLayout>
+  <LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:orientation="horizontal"
+	android:layout_marginBottom="5dip"
+	>	
+<TextView 
+     android:text = "password:"  
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20px"
+	 android:textStyle="bold"
+     />     
+     
+<EditText 
+			  android:id="@+id/password_login"
+              android:layout_height="wrap_content"
+              android:layout_width="200px"
+              android:password="true"
+              android:singleLine="true"
+              android:layout_marginLeft="8dip" 
+  /> 
+</LinearLayout>
+  <LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:orientation="horizontal"
+	>
+<TextView 
+     android:text = "Remember me"  
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="14px"
+	 android:textStyle="normal"	 
+     />  
+   <!-- Customize this checkbox with a star or something -->  
+<CheckBox
+	android:id="@+id/remember_me"
+	android:checked="false"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>	
+ <Button 
+
+ 		  android:id="@+id/login_button"
+          android:text="Access"
+          android:layout_width="150dip"
+          android:layout_height="wrap_content"
+          android:textSize="15px"
+          android:layout_gravity="center_horizontal"
+          />             
+ 
+<Button 
+ 		  android:id="@+id/sign_up_button"
+          android:text="Sign up and Explore me!"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:textSize="15px"
+          android:singleLine="true"
+          android:layout_marginTop="10dip"
+          />             
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal|bottom"
+	android:orientation="horizontal"
+	android:layout_marginTop="40dip"
+	>	          
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="15px"
+	android:textStyle="italic"
+	android:text="Developed by:"
+	android:textColor="#e0eee0"
+	
+	/>
+<Button 
+ 		  android:background="@android:color/transparent"	
+ 		  android:id="@+id/northern_cross"
+          android:text="@string/developers"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="15px"
+          android:textColor="#ffffff"
+          />
+</LinearLayout>                    	                  
+</LinearLayout>
+    

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- APPEARANCE -->
+		<PreferenceScreen android:key="preference_screen_apperance"
+			android:summary="@string/summary_preference_appearance"
+			android:title="@string/title_preference_appearance">
+			<PreferenceCategory android:title="@string/category_title_preference_appearance">
+				<ListPreference android:key="theme" android:entries="@array/theme_values"
+					android:entryValues="@array/theme_keys"
+					android:defaultValue="AndTweet"
+					android:title="@string/title_preference_theme"
+					android:summary="@string/summary_preference_theme"
+					android:dialogTitle="@string/dialog_title_preference_theme" />
+				<CheckBoxPreference android:key="appearance_light_theme"
+					android:title="@string/title_preference_light_theme"
+					android:summaryOff="@string/summary_preference_light_theme_off"
+					android:summaryOn="@string/summary_preference_light_theme_on" />
+ </PreferenceCategory>
+ </PreferenceScreen>
+ </PreferenceScreen>

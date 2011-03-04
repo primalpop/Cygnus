@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/splash_bg"
+	android:gravity="center">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:gravity="center" android:orientation="vertical"
+		android:id="@+id/splash_container">
+		<ViewFlipper android:id="@+id/splash_more_flipper"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:outAnimation="@anim/push_left_out"
+			android:inAnimation="@anim/push_left_in">
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_1" android:textSize="8pt"
+				android:textColor="#ffffffff"
+				android:text="@string/splash_text_learn_more_0"/>
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_1" android:textSize="8pt"
+				android:textColor="#ffffffff"
+				android:text="@string/splash_text_learn_more_1"/>
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_2" android:textSize="8pt"
+				android:textColor="#ffffffff" 
+				android:text="@string/splash_text_learn_more_2" />
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_3" android:textSize="8pt"
+				android:textColor="#ffffffff" 
+				android:text="@string/splash_text_learn_more_3" />
+				<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_4" android:textSize="8pt"
+				android:textColor="#ffffffff" 
+				android:text="@string/splash_text_learn_more_4" />
+			<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_5" android:textSize="8pt"
+				android:textColor="#ffffffff" 
+				android:text="@string/splash_text_learn_more_5" />
+				<TextView android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:padding="16dip"
+				android:id="@+id/splash_more_text_content_6" android:textSize="8pt"
+				android:textColor="#ffffffff" 
+				android:text="@string/splash_text_learn_more_6" />	
+		</ViewFlipper>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="center" android:paddingBottom="8dip"
+		android:paddingTop="12dip" android:layout_height="wrap_content"
+		android:background="#44000000">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingLeft="20dip"
+			android:paddingRight="20dip" android:id="@+id/button_splash_get_started"
+			android:text="Get Started"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingLeft="20dip"
+			android:paddingRight="20dip" android:id="@+id/button_splash_learn_more"
+			android:text="Learn more"></Button>
+	</LinearLayout>
+</LinearLayout>

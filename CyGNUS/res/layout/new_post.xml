@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="315dip"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layoutAnimation="@anim/layout_anim_controller" 
+  >
+<TextView
+android:id="@+id/caption_new_post"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Wat are you thinking?"
+android:textColor="@color/orange1"
+>
+</TextView>
+<EditText
+android:id="@+id/message"
+android:layout_width="fill_parent"
+android:layout_height="100dip"
+android:textSize="18sp"
+android:maxLength="140"
+>
+</EditText>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:orientation="horizontal"
+>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="left"
+android:textColor="@color/ghost_white"
+android:text="Characters left:"
+/>
+<TextView
+android:id="@+id/count"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="left"
+android:layout_marginRight="40dip"
+android:text="140"
+android:textColor="@color/ghost_white"
+/>
+<Button
+android:id="@+id/okay"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Launch"
+android:layout_gravity="right"
+>
+</Button>
+<Button
+android:id="@+id/cancel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Cancel"
+android:layout_gravity="right"
+>
+</Button>
+</LinearLayout>
+</LinearLayout>

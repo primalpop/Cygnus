@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Timeline!</string>
+    <string name="app_name">CyGNUS</string>
+<string name="terms_dec">Declaration of Licence</string>
+<string name="title">CyGNUS</string>
+<string name="caption">Universe of Microblogging</string>
+<string name="developers"><u>Northern Cross</u></string>
+
+<string name="splash_text_learn_more_0"><h1><b>1. LOGIN</b></h1>\n\n
+ Enter the username and password and press <b>Login</b> to sign in to <b>CyGNUS</b>\n\n
+ If it is your first time in <b>CyGNUS</b> click <b>Sign Up</b> 
+ and enter the necessary details to start exploring. \n\n
+ Optionally you can tick <b>Remember me</b> to skip logging in, 
+ by saving your username and password in SharedPreferences, the next time you login. </string>
+ 
+ <string name="splash_text_learn_more_1"><h1><b>2. TIMELINE</b></h1> \n\n
+After logging in, you are redirected to <b>Timeline</b> 
+which contains your posts as well as posts of those whom you follow.\n\n
+In order to perform an action on a post in the list
+you can <b>hold down</b> on it to get a menu.\n\n
+You can <b>click</b> on an username to get more details about that user.
+\n\nPress the <b>Menu</b> button for various options. </string>
+	
+	<string name="splash_text_learn_more_2"><h1><b>3. SENDING AND REPLYING</b></h1>\n\n 
+	In order to update your status, Menu and then click Post and simply type 
+	into the text area and click <b>Launch</b>.\n\nIn order to reply, <b>hold down</b> on a post and 
+	select <b>Reply</b> in the menu that comes up, and type in your reply.\n\n
+	To abort a post, press Cancel.</string>
+	
+	<string name="splash_text_learn_more_3"><h1><b>4. FOLLOW/UNFOLLOW/SMS</b></h1>\n\n
+	Click on an <b>username</b> to display his/her profile and then press \n\n 
+	 <b>Follow</b> \n In order to <b>follow</b> a user so that you can read his/her posts \n\n
+	 <b>Unfollow</b> \n Unfollow an user. You can no longer read his/her posts. \n\n
+	 <b>SMS</b> \n Simply type the message into the text area and press SMS.</string>
+	 
+	 
+	 <string name="splash_text_learn_more_4"><h1><b>5. UPDATE/MORE</b></h1>\n\n
+	 <b>UPDATE</b> \n
+	Click on  <b>UPDATE</b> button on top of timeline to display any newer posts if it exists.
+	 \n\n  <b>More</b> \n Click <b>Menu</b> and then <b>More Posts</b> to get the list of older 
+	 posts added to the timeline. </string>
+	 
+	<string name="splash_text_learn_more_5"><h1><b>6. SEARCHING</b></h1>\n\nClick <b>Menu</b> and 
+	then <b>Search</b>. \n\n Enter the name of the user whom you want to search for and presss <b>Search</b>. \n\n A search
+	 can find any user who has signed up in <b>CyGNUs</b>"</string>
+	 
+	 <string name="splash_text_learn_more_6"><h1><b>About CyGNUS</b></h1> \n\n <b>CyGNUS Ver 1</b>
+	 \n\n Developed by: <b>Northern Cross</b>
+	 \n\n You can download the source code for <b>CyGNUS</b> from <b>github repo</b>.
+	 \n\n Contact us at: \n\n <b>geeks.android@gmail.com</b>
+	 </string>
+	
+	<string name="category_title_preference_appearance">Appearance</string>
+	<string name="title_preference_theme">Theme</string>
+	<string name="title_preference_light_theme">Light Theme</string>
+	<string name="title_preference_appearance">Appearance</string>
+	<string name="summary_preference_appearance">Change the CyGNUS look and feel</string>
+	<string name="summary_preference_theme">Select CyGNUS theme</string>
+	<string name="summary_preference_light_theme_off">The standard theme will be used.</string>
+	<string name="summary_preference_light_theme_on">The light theme will be used.</string>
+	<string name="dialog_title_preference_theme">Select a Theme</string>
+</resources>

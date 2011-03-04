@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Post" android:id="@+id/post" android:icon="@drawable/menu_post"/>
+<item android:title="Search" android:id="@+id/search" android:icon="@drawable/menu_search"><menu>
+<item android:id="@+id/search_for_ppl" android:title="Search for People"></item>
+<item android:id="@+id/search_for_posts" android:title="Search for Posts"></item>
+</menu>
+</item>
+<item android:id="@+id/get_more" android:title="More Posts" android:icon="@drawable/menu_more"/>
+<item android:title="Favourites" android:id="@+id/favourites" android:icon="@drawable/menu_preferences"/>
+<item android:id="@+id/direct_message" android:icon="@drawable/menu_direct_message" android:title="Direct Messages"/>
+<item android:title="Logout" android:id="@+id/logout" android:icon="@drawable/menu_logout"/>
+</menu>

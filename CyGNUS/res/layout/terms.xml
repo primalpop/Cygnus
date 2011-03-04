@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/terms_layout"
+android:orientation="vertical"
+android:layout_width="250dip"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@color/black"
+android:padding="20dip"
+>
+<ImageView
+android:id="@+id/gpl_icon"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/gpl"
+android:layout_gravity="center_horizontal"
+/>
+<TextView
+android:id="@+id/licence"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="Cygnus is a a free software. You can redistribute it
+ and/or modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3 of the License, or (at your option) any later version.
+This application is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 	
+The details you enter in the application are done on your own responsibilty. 
+Developers are not liable for any misuse of the content you 
+enter in the application "
+android:typeface="serif"
+android:textColor="@color/sky_blue"
+android:layout_gravity="center_horizontal"
+/>
+
+</LinearLayout>

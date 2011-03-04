@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"	
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/black_white"
+> 
+
+<TextView
+  android:id="@+id/text_above_search"	
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="20sp"
+  android:textColor="@color/ghost_white"
+  android:text="Who are you looking for? "
+  android:textStyle="bold"
+  />
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+>
+<EditText
+  android:layout_width="250dip"
+  android:layout_height="wrap_content"
+  android:textSize="20sp"
+  android:textColor="@color/sky_blue"
+  android:id="@+id/search_text"
+  />
+<Button
+  android:id="@+id/search_button"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="GO"
+  android:textSize="24sp"
+  android:textStyle="bold|italic"
+  android:background="@drawable/custom_button"
+/>
+</LinearLayout>
+<ListView
+	android:id="@+id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:drawSelectorOnTop="false"
+	android:layout_weight="1"
+	/>
+</LinearLayout>

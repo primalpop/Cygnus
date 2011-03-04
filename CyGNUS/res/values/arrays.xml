@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="theme_values">
+		<item>Small</item>
+		<item>Standard</item>
+		<item>Large</item>
+	</string-array>
+	<string-array name="theme_keys">
+		<item>AndTweet.Small</item>
+		<item>AndTweet</item>
+		<item>AndTweet.Large</item>
+	</string-array>
+</resources>

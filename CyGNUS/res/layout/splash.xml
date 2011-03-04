@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/splash_bg"
+	android:gravity="center">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:gravity="center" android:orientation="vertical" android:id="@+id/splash_container">
+		<ImageView android:src="@drawable/cyg_demo"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:layout_width="wrap_content" android:id="@+id/splash_logo_image"
+			android:focusable="false" android:focusableInTouchMode="false"></ImageView>
+			<TextView android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:typeface="sans"
+			android:text="CyGNUS" android:textSize="30sp"
+			android:layout_marginBottom="12dip" 
+			android:layout_width="fill_parent" android:focusable="false"
+			android:focusableInTouchMode="false"></TextView>
+		<TextView android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:typeface="sans"
+			android:text="Android Microblogging Platform" android:textSize="10sp"
+			android:layout_marginBottom="12dip" 
+			android:layout_width="fill_parent" android:focusable="false"
+			android:focusableInTouchMode="false"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="8sp"
+			android:text="Version: .3"
+			android:textColor="#ff7bc7cb"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="center" android:paddingBottom="8dip"
+		android:paddingTop="12dip" android:layout_height="wrap_content"
+		android:background="#44000000">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingLeft="20dip"
+			android:paddingRight="20dip" android:id="@+id/button_splash_get_started"
+			android:text="Get Started"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingLeft="20dip"
+			android:paddingRight="20dip" android:id="@+id/button_splash_learn_more"
+			android:text="Learn More"></Button>
+	</LinearLayout>
+</LinearLayout>
