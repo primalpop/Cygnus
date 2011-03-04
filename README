@@ -1,0 +1,5 @@
+Cygnus is a microblogging application for Android phones. Microblogging is a networkingservice that allows the subscriber to broadcast short messages to other subscribers of theservice. It allows mobile users of cell phones to stay abreast of activities within a group by receiving frequent published updates, of 140 characters or less. Just like any other Internet tool, microblogging can be utilized for various purposes in fields such as business, education etc.
+
+The front end of Cygnus was developed using Android SDK and back end using Django which is a Web development framework over Python. The communication between frontend and back end was established through HTTP requests.
+
+
